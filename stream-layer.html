@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7, IE=9, IE=10">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>StreamLayer - Test</title>
+    <link rel="stylesheet" href="//js.arcgis.com/3.6/js/esri/css/esri.css">
+    <style>
+      html, body, #map {
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+    <script src="//js.arcgis.com/3.6/"></script>
+    <script>
+      require(["dojo/parser", "esri/map", "esri/layers/StreamLayer", "esri/InfoTemplate", "dojo/domReady!"], function(parser, Map, StreamLayer, InfoTemplate){
+        parser.parse();
+      
+        var map = new Map("map", {
+          basemap: "national-geographic",
+          center: [-117.09, 32.7],
+          zoom: 11
+        });
+        
+        var streamLayer = new StreamLayer("http://socialdev.dc.esri.com/admin/services/chelm_test6/FeatureServer/0", {
+          mode: StreamLayer.MODE_SNAPSHOT,
+          outFields: ["*"],
+          purgeOptions: { displayCount: 5 },
+          infoTemplate: new InfoTemplate("The Weather", "${type}")
+        });
+        
+        map.addLayer(streamLayer);
+        //map.on();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>

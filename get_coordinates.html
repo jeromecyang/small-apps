@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <textarea cols="50" rows="20" id="input"></textarea>
+    <br>
+    <button id="find">Find</button>
+    <br>
+    <textarea cols="50" rows="20" id="output"></textarea>
+    <script>
+      document.getElementById("find").onclick = function(){
+        var input = document.getElementById("input").value;
+        var cc = input.replace("parent.workframe.myAddMarker('","").replace("');","");
+        var xs = cc.split("','")[0].split(";");
+        var ys = cc.split("','")[1].split(";");
+        var result = "";
+        for (var i = 0; i< xs.length; i++) {
+          result += xs[i] + "\t" + ys[i] + "\n"
+        };
+        document.getElementById("output").innerHTML = result;
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7, IE=9, IE=10">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>HistogramTimeSlider Try</title>
+    <link rel="stylesheet" href="//js.arcgis.com/3.6/js/dojo/dijit/themes/tundra/tundra.css">
+    <link rel="stylesheet" href="//js.arcgis.com/3.6/js/esri/css/esri.css">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      .histogram-timeslider {
+        overflow-x: hidden;
+        height: 160px;
+      }
+    </style>
+    <script src="//js.arcgis.com/3.6/"></script>
+    <script>
+      require(["esri/map", "esri/layers/FeatureLayer", "esri/dijit/HistogramTimeSlider", "dojo/domReady!"], function(Map, FeatureLayer, HistogramTimeSlider){
+        dojo.byId("map").style.height = (document.body.clientHeight - 160).toString() + "px";
+      
+        var map = new Map("map", {
+          basemap: "oceans",
+          center: [-100, 40],
+          zoom: 4
+        });
+        
+        var layer = new FeatureLayer("http://services.arcgis.com/V6ZHFr6zdgNZuVG0/ArcGIS/rest/services/U2/FeatureServer/0", {
+          id: "u2",
+          mode: FeatureLayer.MODE_SNAPSHOT,
+          outFields: ["*"]
+        });
+
+        var slider = new HistogramTimeSlider({
+          dateFormat: "DateFormat(selector: 'date', fullYear: true)",
+          layers : [ layer ],
+          timeInterval: "esriTimeUnitsYears"
+        }, dojo.byId("histogram"));
+        
+        map.addLayer(layer);
+        map.setTimeSlider(slider);
+      });
+    </script>
+  </head>
+  <body class="tundra">
+    <div id="map"></div>
+    <div id="histogram"></div>
+  </body>
+</html>
