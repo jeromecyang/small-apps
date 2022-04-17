@@ -1,0 +1,1930 @@
+[
+  {
+    "Year": 2020,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "8,804,190",
+    "Notes": ""
+  },
+  {
+    "Year": 2020,
+    "Rank": 2,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "3,898,747",
+    "Notes": ""
+  },
+  {
+    "Year": 2020,
+    "Rank": 3,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "2,746,388",
+    "Notes": ""
+  },
+  {
+    "Year": 2020,
+    "Rank": 4,
+    "City": "Houston",
+    "State": "Texas",
+    "Population": "2,304,580",
+    "Notes": ""
+  },
+  {
+    "Year": 2020,
+    "Rank": 5,
+    "City": "Phoenix",
+    "State": "Arizona",
+    "Population": "1,608,139",
+    "Notes": "Phoenix passes Philadelphia to become the first city in the Mountain West to reach the top 5."
+  },
+  {
+    "Year": 2020,
+    "Rank": 6,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,603,797",
+    "Notes": "For the first time, Philadelphia drops out of the top 5."
+  },
+  {
+    "Year": 2020,
+    "Rank": 7,
+    "City": "San Antonio",
+    "State": "Texas",
+    "Population": "1,434,625",
+    "Notes": ""
+  },
+  {
+    "Year": 2020,
+    "Rank": 8,
+    "City": "San Diego",
+    "State": "California",
+    "Population": "1,386,932",
+    "Notes": ""
+  },
+  {
+    "Year": 2020,
+    "Rank": 9,
+    "City": "Dallas",
+    "State": "Texas",
+    "Population": "1,304,379",
+    "Notes": ""
+  },
+  {
+    "Year": 2020,
+    "Rank": 10,
+    "City": "San Jose",
+    "State": "California",
+    "Population": "1,013,240",
+    "Notes": "Third city in California to surpass 1 million."
+  },
+  {
+    "Year": 2010,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "8,175,133",
+    "Notes": ""
+  },
+  {
+    "Year": 2010,
+    "Rank": 2,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "3,792,621",
+    "Notes": ""
+  },
+  {
+    "Year": 2010,
+    "Rank": 3,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "2,695,598",
+    "Notes": ""
+  },
+  {
+    "Year": 2010,
+    "Rank": 4,
+    "City": "Houston",
+    "State": "Texas",
+    "Population": "2,099,451",
+    "Notes": "First city in the South or Texas to surpass 2 million."
+  },
+  {
+    "Year": 2010,
+    "Rank": 5,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,526,006",
+    "Notes": "First population gain since 1950."
+  },
+  {
+    "Year": 2010,
+    "Rank": 6,
+    "City": "Phoenix",
+    "State": "Arizona",
+    "Population": "1,445,632",
+    "Notes": "Phoenix briefly experienced population decline during the recession but rebounded slowly."
+  },
+  {
+    "Year": 2010,
+    "Rank": 7,
+    "City": "San Antonio",
+    "State": "Texas",
+    "Population": "1,327,407",
+    "Notes": "San Antonio overtakes Dallas as Texas' second-largest city."
+  },
+  {
+    "Year": 2010,
+    "Rank": 8,
+    "City": "San Diego",
+    "State": "California",
+    "Population": "1,307,402",
+    "Notes": ""
+  },
+  {
+    "Year": 2010,
+    "Rank": 9,
+    "City": "Dallas",
+    "State": "Texas",
+    "Population": "1,197,816",
+    "Notes": ""
+  },
+  {
+    "Year": 2010,
+    "Rank": 10,
+    "City": "San Jose",
+    "State": "California",
+    "Population": "945,942",
+    "Notes": "First appearance in the top 10."
+  },
+  {
+    "Year": 2000,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "8,008,278",
+    "Notes": "First city in the US to surpass 8 million"
+  },
+  {
+    "Year": 2000,
+    "Rank": 2,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "3,694,820",
+    "Notes": ""
+  },
+  {
+    "Year": 2000,
+    "Rank": 3,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "2,896,016",
+    "Notes": "Chicago experienced population gain during the 1990s."
+  },
+  {
+    "Year": 2000,
+    "Rank": 4,
+    "City": "Houston",
+    "State": "Texas",
+    "Population": "1,953,631",
+    "Notes": ""
+  },
+  {
+    "Year": 2000,
+    "Rank": 5,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,517,550",
+    "Notes": ""
+  },
+  {
+    "Year": 2000,
+    "Rank": 6,
+    "City": "Phoenix",
+    "State": "Arizona",
+    "Population": "1,321,045",
+    "Notes": "Phoenix becomes the first (and to date, the only) city in the Mountain West to surpass 1 million, as well as the only Arizona city and only state capital to do so too."
+  },
+  {
+    "Year": 2000,
+    "Rank": 7,
+    "City": "San Diego",
+    "State": "California",
+    "Population": "1,223,400",
+    "Notes": ""
+  },
+  {
+    "Year": 2000,
+    "Rank": 8,
+    "City": "Dallas",
+    "State": "Texas",
+    "Population": "1,188,580",
+    "Notes": ""
+  },
+  {
+    "Year": 2000,
+    "Rank": 9,
+    "City": "San Antonio",
+    "State": "Texas",
+    "Population": "1,144,646",
+    "Notes": "Third city in Texas to surpass 1 million."
+  },
+  {
+    "Year": 2000,
+    "Rank": 10,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "951,270",
+    "Notes": "First city ever to drop back under 1 million; last appearance in top 10."
+  },
+  {
+    "Year": 1990,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "7,322,564",
+    "Notes": "New York City gained population during the 1980s after heavy losses in the 1970s."
+  },
+  {
+    "Year": 1990,
+    "Rank": 2,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "3,485,398",
+    "Notes": "Los Angeles becomes the nation's second largest city. Third U.S. city, and first on west coast to surpass 3 million."
+  },
+  {
+    "Year": 1990,
+    "Rank": 3,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "2,783,726",
+    "Notes": "After nearly 100 years as the nation's second largest city, Chicago is surpassed by Los Angeles and becomes the third largest city."
+  },
+  {
+    "Year": 1990,
+    "Rank": 4,
+    "City": "Houston",
+    "State": "Texas",
+    "Population": "1,630,553",
+    "Notes": "Houston overtakes Philadelphia to become the nation's fourth largest city."
+  },
+  {
+    "Year": 1990,
+    "Rank": 5,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,585,577",
+    "Notes": ""
+  },
+  {
+    "Year": 1990,
+    "Rank": 6,
+    "City": "San Diego",
+    "State": "California",
+    "Population": "1,110,549",
+    "Notes": "Second city in California to surpass 1 million."
+  },
+  {
+    "Year": 1990,
+    "Rank": 7,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "1,027,974",
+    "Notes": ""
+  },
+  {
+    "Year": 1990,
+    "Rank": 8,
+    "City": "Dallas",
+    "State": "Texas",
+    "Population": "1,006,877",
+    "Notes": "Second city in Texas to surpass 1 million."
+  },
+  {
+    "Year": 1990,
+    "Rank": 9,
+    "City": "Phoenix",
+    "State": "Arizona",
+    "Population": "992,551",
+    "Notes": ""
+  },
+  {
+    "Year": 1990,
+    "Rank": 10,
+    "City": "San Antonio",
+    "State": "Texas",
+    "Population": "935,933",
+    "Notes": "First appearance in top 10."
+  },
+  {
+    "Year": 1980,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "7,071,639",
+    "Notes": "New York City experiences the largest loss of people within a city in American history when it loses approximately 823,000 people in only a ten-year span. The city government experienced severe financial strains and near bankruptcy during the 1970s, until it was bailed out by the federal government."
+  },
+  {
+    "Year": 1980,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "3,005,072",
+    "Notes": ""
+  },
+  {
+    "Year": 1980,
+    "Rank": 3,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "2,966,850",
+    "Notes": ""
+  },
+  {
+    "Year": 1980,
+    "Rank": 4,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,688,210",
+    "Notes": ""
+  },
+  {
+    "Year": 1980,
+    "Rank": 5,
+    "City": "Houston",
+    "State": "Texas",
+    "Population": "1,595,138",
+    "Notes": "Houston becomes the first (and to date, the only) Texas city to reach the top 5."
+  },
+  {
+    "Year": 1980,
+    "Rank": 6,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "1,203,339",
+    "Notes": ""
+  },
+  {
+    "Year": 1980,
+    "Rank": 7,
+    "City": "Dallas",
+    "State": "Texas",
+    "Population": "904,078",
+    "Notes": ""
+  },
+  {
+    "Year": 1980,
+    "Rank": 8,
+    "City": "San Diego",
+    "State": "California",
+    "Population": "875,538",
+    "Notes": "First appearance in the top 10."
+  },
+  {
+    "Year": 1980,
+    "Rank": 9,
+    "City": "Phoenix",
+    "State": "Arizona",
+    "Population": "789,704",
+    "Notes": "First appearance in the top 10. First (and to date, the only) city in the Mountain West to reach the top 10."
+  },
+  {
+    "Year": 1980,
+    "Rank": 10,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "786,775",
+    "Notes": "Last appearance in the top 10."
+  },
+  {
+    "Year": 1970,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "7,894,862",
+    "Notes": ""
+  },
+  {
+    "Year": 1970,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "3,366,957",
+    "Notes": ""
+  },
+  {
+    "Year": 1970,
+    "Rank": 3,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "2,816,061",
+    "Notes": ""
+  },
+  {
+    "Year": 1970,
+    "Rank": 4,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,948,609",
+    "Notes": ""
+  },
+  {
+    "Year": 1970,
+    "Rank": 5,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "1,511,482",
+    "Notes": ""
+  },
+  {
+    "Year": 1970,
+    "Rank": 6,
+    "City": "Houston",
+    "State": "Texas",
+    "Population": "1,232,802",
+    "Notes": "Sixth city in the U.S. surpass 1 million. First city in the South, or in Texas to surpass 1 million."
+  },
+  {
+    "Year": 1970,
+    "Rank": 7,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "905,759",
+    "Notes": ""
+  },
+  {
+    "Year": 1970,
+    "Rank": 8,
+    "City": "Dallas",
+    "State": "Texas",
+    "Population": "844,401",
+    "Notes": "First appearance in the top 10."
+  },
+  {
+    "Year": 1970,
+    "Rank": 9,
+    "City": "Washington",
+    "State": "District of Columbia",
+    "Population": "756,510",
+    "Notes": "Last appearance in the top 10."
+  },
+  {
+    "Year": 1970,
+    "Rank": 10,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "750,903",
+    "Notes": "Last appearance in the top 10. Cleveland is notably less dense in this census than in 1920."
+  },
+  {
+    "Year": 1960,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "7,781,984",
+    "Notes": "First ever population drop for New York City."
+  },
+  {
+    "Year": 1960,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "3,550,404",
+    "Notes": "First ever population drop for Chicago."
+  },
+  {
+    "Year": 1960,
+    "Rank": 3,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "2,479,015",
+    "Notes": "Los Angeles overtakes Philadelphia to become the nation's third-largest city."
+  },
+  {
+    "Year": 1960,
+    "Rank": 4,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "2,002,512",
+    "Notes": "After 60 years as the nation's third-largest city, Philadelphia drops to the fourth spot on the list."
+  },
+  {
+    "Year": 1960,
+    "Rank": 5,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "1,670,144",
+    "Notes": "First ever population drop for Detroit."
+  },
+  {
+    "Year": 1960,
+    "Rank": 6,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "939,024",
+    "Notes": "First ever population drop for Baltimore."
+  },
+  {
+    "Year": 1960,
+    "Rank": 7,
+    "City": "Houston",
+    "State": "Texas",
+    "Population": "938,219",
+    "Notes": "First appearance in the top 10."
+  },
+  {
+    "Year": 1960,
+    "Rank": 8,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "876,050",
+    "Notes": ""
+  },
+  {
+    "Year": 1960,
+    "Rank": 9,
+    "City": "Washington",
+    "State": "District of Columbia",
+    "Population": "783,956",
+    "Notes": "First ever population drop for Washington."
+  },
+  {
+    "Year": 1960,
+    "Rank": 10,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "750,026",
+    "Notes": "Last appearance in the top 10."
+  },
+  {
+    "Year": 1950,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "7,891,957",
+    "Notes": "Brooklyn accounts for 2,738,175 of this total and Queens 1,550,849"
+  },
+  {
+    "Year": 1950,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "3,620,962",
+    "Notes": "Population peaked this census."
+  },
+  {
+    "Year": 1950,
+    "Rank": 3,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "2,071,605",
+    "Notes": "Population peaked this census."
+  },
+  {
+    "Year": 1950,
+    "Rank": 4,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "1,970,358",
+    "Notes": "Los Angeles is one of the few cities to have nearly continuous growth since 1950."
+  },
+  {
+    "Year": 1950,
+    "Rank": 5,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "1,849,568",
+    "Notes": "Population peaked this census. To date, Detroit is the only city in the United States to have a population grow beyond 1 million and then fall below that figure."
+  },
+  {
+    "Year": 1950,
+    "Rank": 6,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "949,708",
+    "Notes": "Population peaked this census."
+  },
+  {
+    "Year": 1950,
+    "Rank": 7,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "914,808",
+    "Notes": "Population peaked this census."
+  },
+  {
+    "Year": 1950,
+    "Rank": 8,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "856,796",
+    "Notes": "Population peaked this census."
+  },
+  {
+    "Year": 1950,
+    "Rank": 9,
+    "City": "Washington",
+    "State": "District of Columbia",
+    "Population": "802,178",
+    "Notes": "Population peaked this census. Re-appearance in the top 10 (last in 1820)."
+  },
+  {
+    "Year": 1950,
+    "Rank": 10,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "801,444",
+    "Notes": "Population peaked this census. Last appearance in top 10."
+  },
+  {
+    "Year": 1940,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "7,454,995",
+    "Notes": "First city in the US to surpass 7 million."
+  },
+  {
+    "Year": 1940,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "3,396,808",
+    "Notes": ""
+  },
+  {
+    "Year": 1940,
+    "Rank": 3,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,931,334",
+    "Notes": "First ever population drop for Philadelphia."
+  },
+  {
+    "Year": 1940,
+    "Rank": 4,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "1,623,452",
+    "Notes": ""
+  },
+  {
+    "Year": 1940,
+    "Rank": 5,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "1,504,277",
+    "Notes": ""
+  },
+  {
+    "Year": 1940,
+    "Rank": 6,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "878,336",
+    "Notes": "First ever population drop for Cleveland."
+  },
+  {
+    "Year": 1940,
+    "Rank": 7,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "859,100",
+    "Notes": ""
+  },
+  {
+    "Year": 1940,
+    "Rank": 8,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "816,048",
+    "Notes": "First ever population drop for St. Louis."
+  },
+  {
+    "Year": 1940,
+    "Rank": 9,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "770,816",
+    "Notes": "First ever population drop for Boston."
+  },
+  {
+    "Year": 1940,
+    "Rank": 10,
+    "City": "Pittsburgh",
+    "State": "Pennsylvania",
+    "Population": "671,659",
+    "Notes": "Last appearance in top 10."
+  },
+  {
+    "Year": 1930,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "6,930,446",
+    "Notes": "First and only city in the U.S. to surpass 6 million. Brooklyn accounts for 2,560,401 of the total."
+  },
+  {
+    "Year": 1930,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "3,376,438",
+    "Notes": "Second city in the U.S. to surpass 3 million."
+  },
+  {
+    "Year": 1930,
+    "Rank": 3,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,950,961",
+    "Notes": ""
+  },
+  {
+    "Year": 1930,
+    "Rank": 4,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "1,568,662",
+    "Notes": "Fourth city in the U.S. to surpass 1 million."
+  },
+  {
+    "Year": 1930,
+    "Rank": 5,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "1,238,048",
+    "Notes": "Fifth city in the U.S. to surpass 1 million. First West Coast city to make the top 5."
+  },
+  {
+    "Year": 1930,
+    "Rank": 6,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "900,429",
+    "Notes": ""
+  },
+  {
+    "Year": 1930,
+    "Rank": 7,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "821,960",
+    "Notes": ""
+  },
+  {
+    "Year": 1930,
+    "Rank": 8,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "804,874",
+    "Notes": ""
+  },
+  {
+    "Year": 1930,
+    "Rank": 9,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "781,188",
+    "Notes": ""
+  },
+  {
+    "Year": 1930,
+    "Rank": 10,
+    "City": "Pittsburgh",
+    "State": "Pennsylvania",
+    "Population": "669,817",
+    "Notes": ""
+  },
+  {
+    "Year": 1920,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "5,620,048",
+    "Notes": "First and only city in the US to surpass 5 million. Brooklyn passes 2 million with 2,018,356"
+  },
+  {
+    "Year": 1920,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "2,701,705",
+    "Notes": ""
+  },
+  {
+    "Year": 1920,
+    "Rank": 3,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,823,779",
+    "Notes": ""
+  },
+  {
+    "Year": 1920,
+    "Rank": 4,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "993,069",
+    "Notes": "The rise of the automobile industry in the Detroit area propelled its growth substantially between 1910 and 1920, doubling its population in only 10 years."
+  },
+  {
+    "Year": 1920,
+    "Rank": 5,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "796,841",
+    "Notes": "Only census where Cleveland makes the top 5."
+  },
+  {
+    "Year": 1920,
+    "Rank": 6,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "772,897",
+    "Notes": ""
+  },
+  {
+    "Year": 1920,
+    "Rank": 7,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "748,060",
+    "Notes": ""
+  },
+  {
+    "Year": 1920,
+    "Rank": 8,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "733,826",
+    "Notes": ""
+  },
+  {
+    "Year": 1920,
+    "Rank": 9,
+    "City": "Pittsburgh",
+    "State": "Pennsylvania",
+    "Population": "588,343",
+    "Notes": ""
+  },
+  {
+    "Year": 1920,
+    "Rank": 10,
+    "City": "Los Angeles",
+    "State": "California",
+    "Population": "576,673",
+    "Notes": "First appearance in top 10."
+  },
+  {
+    "Year": 1910,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "4,766,883",
+    "Notes": "Manhattan reached its historical high of over 2.3 million and Brooklyn had 1,634,351. However, the other three boroughs began to grow rapidly as the Interborough Rapid Transit system expanded. First (and to date, the only) city to reach 4 million."
+  },
+  {
+    "Year": 1910,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "2,185,283",
+    "Notes": "Second city in the U.S. to reach 2 million."
+  },
+  {
+    "Year": 1910,
+    "Rank": 3,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,549,008",
+    "Notes": ""
+  },
+  {
+    "Year": 1910,
+    "Rank": 4,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "687,029",
+    "Notes": ""
+  },
+  {
+    "Year": 1910,
+    "Rank": 5,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "670,585",
+    "Notes": ""
+  },
+  {
+    "Year": 1910,
+    "Rank": 6,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "560,663",
+    "Notes": ""
+  },
+  {
+    "Year": 1910,
+    "Rank": 7,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "558,485",
+    "Notes": ""
+  },
+  {
+    "Year": 1910,
+    "Rank": 8,
+    "City": "Pittsburgh",
+    "State": "Pennsylvania",
+    "Population": "533,905",
+    "Notes": "First appearance in top 10."
+  },
+  {
+    "Year": 1910,
+    "Rank": 9,
+    "City": "Detroit",
+    "State": "Michigan",
+    "Population": "465,766",
+    "Notes": "First appearance in top 10."
+  },
+  {
+    "Year": 1910,
+    "Rank": 10,
+    "City": "Buffalo",
+    "State": "New York",
+    "Population": "423,715",
+    "Notes": "Last appearance in top 10."
+  },
+  {
+    "Year": 1900,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "3,437,202",
+    "Notes": "First city in the US to surpass 3 million residents. This is the first census after the creation of the Five Boroughs."
+  },
+  {
+    "Year": 1900,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "1,698,575",
+    "Notes": ""
+  },
+  {
+    "Year": 1900,
+    "Rank": 3,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,293,697",
+    "Notes": ""
+  },
+  {
+    "Year": 1900,
+    "Rank": 4,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "575,238",
+    "Notes": ""
+  },
+  {
+    "Year": 1900,
+    "Rank": 5,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "560,892",
+    "Notes": ""
+  },
+  {
+    "Year": 1900,
+    "Rank": 6,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "508,957",
+    "Notes": ""
+  },
+  {
+    "Year": 1900,
+    "Rank": 7,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "391,768",
+    "Notes": ""
+  },
+  {
+    "Year": 1900,
+    "Rank": 8,
+    "City": "Buffalo",
+    "State": "New York",
+    "Population": "352,387",
+    "Notes": "First appearance since 1860."
+  },
+  {
+    "Year": 1900,
+    "Rank": 9,
+    "City": "San Francisco",
+    "State": "California",
+    "Population": "342,782",
+    "Notes": "Last appearance in top 10. Last census before earthquake and fire."
+  },
+  {
+    "Year": 1900,
+    "Rank": 10,
+    "City": "Cincinnati",
+    "State": "Ohio",
+    "Population": "325,902",
+    "Notes": "Last appearance in the top 10."
+  },
+  {
+    "Year": 1890,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "1,515,301",
+    "Notes": "This is the last census before New York was consolidated into The Five Boroughs (therefore the figure is that of New York County, which at the time consisted of Manhattan and the western part of what later would become The Bronx)."
+  },
+  {
+    "Year": 1890,
+    "Rank": 2,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "1,109,850",
+    "Notes": "Second city in the US to reach 1 million. Chicago overtakes Philadelphia as the nation's second most populous city shortly after they both pass the 1 million mark."
+  },
+  {
+    "Year": 1890,
+    "Rank": 3,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "1,046,964",
+    "Notes": "Third city in the US to reach 1 million."
+  },
+  {
+    "Year": 1890,
+    "Rank": 4,
+    "City": "Brooklyn",
+    "State": "New York",
+    "Population": "806,343",
+    "Notes": "This is the last census where the City of Brooklyn is independent. It would be absorbed into New York City."
+  },
+  {
+    "Year": 1890,
+    "Rank": 5,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "451,770",
+    "Notes": ""
+  },
+  {
+    "Year": 1890,
+    "Rank": 6,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "448,477",
+    "Notes": ""
+  },
+  {
+    "Year": 1890,
+    "Rank": 7,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "434,439",
+    "Notes": ""
+  },
+  {
+    "Year": 1890,
+    "Rank": 8,
+    "City": "San Francisco",
+    "State": "California",
+    "Population": "298,997",
+    "Notes": ""
+  },
+  {
+    "Year": 1890,
+    "Rank": 9,
+    "City": "Cincinnati",
+    "State": "Ohio",
+    "Population": "296,908",
+    "Notes": ""
+  },
+  {
+    "Year": 1890,
+    "Rank": 10,
+    "City": "Cleveland",
+    "State": "Ohio",
+    "Population": "261,353",
+    "Notes": "First appearance in top 10."
+  },
+  {
+    "Year": 1880,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "1,206,299",
+    "Notes": "First city in the US to reach 1 million. Included present day Manhattan and the West Bronx only."
+  },
+  {
+    "Year": 1880,
+    "Rank": 2,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "847,170",
+    "Notes": ""
+  },
+  {
+    "Year": 1880,
+    "Rank": 3,
+    "City": "Brooklyn",
+    "State": "New York",
+    "Population": "566,663",
+    "Notes": ""
+  },
+  {
+    "Year": 1880,
+    "Rank": 4,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "503,185",
+    "Notes": "Great Chicago Fire destroyed approximately one-third of the city in 1871, yet the city still experienced extreme growth by this census count."
+  },
+  {
+    "Year": 1880,
+    "Rank": 5,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "362,839",
+    "Notes": ""
+  },
+  {
+    "Year": 1880,
+    "Rank": 6,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "350,518",
+    "Notes": "The city of St. Louis seceded from St. Louis County in 1876.[b] The population of St. Louis City and St. Louis County during the Census was ~386,000[14]"
+  },
+  {
+    "Year": 1880,
+    "Rank": 7,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "332,313",
+    "Notes": ""
+  },
+  {
+    "Year": 1880,
+    "Rank": 8,
+    "City": "Cincinnati",
+    "State": "Ohio",
+    "Population": "255,139",
+    "Notes": ""
+  },
+  {
+    "Year": 1880,
+    "Rank": 9,
+    "City": "San Francisco",
+    "State": "California",
+    "Population": "233,959",
+    "Notes": ""
+  },
+  {
+    "Year": 1880,
+    "Rank": 10,
+    "City": "New Orleans",
+    "State": "Louisiana",
+    "Population": "216,090",
+    "Notes": "Last appearance in top 10."
+  },
+  {
+    "Year": 1870,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "942,292",
+    "Notes": "Included present day Manhattan only."
+  },
+  {
+    "Year": 1870,
+    "Rank": 2,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "674,022",
+    "Notes": ""
+  },
+  {
+    "Year": 1870,
+    "Rank": 3,
+    "City": "Brooklyn",
+    "State": "New York",
+    "Population": "396,099",
+    "Notes": ""
+  },
+  {
+    "Year": 1870,
+    "Rank": 4,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "310,864",
+    "Notes": "The 1870 St. Louis Census total may have been slightly boosted by fraud.[b]"
+  },
+  {
+    "Year": 1870,
+    "Rank": 5,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "298,977",
+    "Notes": "Census was taken one year before the Great Chicago Fire, which burned down a large portion of the city."
+  },
+  {
+    "Year": 1870,
+    "Rank": 6,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "267,354",
+    "Notes": ""
+  },
+  {
+    "Year": 1870,
+    "Rank": 7,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "250,526",
+    "Notes": ""
+  },
+  {
+    "Year": 1870,
+    "Rank": 8,
+    "City": "Cincinnati",
+    "State": "Ohio",
+    "Population": "216,239",
+    "Notes": ""
+  },
+  {
+    "Year": 1870,
+    "Rank": 9,
+    "City": "New Orleans",
+    "State": "Louisiana",
+    "Population": "191,418",
+    "Notes": ""
+  },
+  {
+    "Year": 1870,
+    "Rank": 10,
+    "City": "San Francisco",
+    "State": "California",
+    "Population": "149,473",
+    "Notes": "First West Coast city in top 10. Its population boom began after 1848 with the Gold Rush and continued with silver discoveries such as the Comstock Lode in 1859."
+  },
+  {
+    "Year": 1860,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "813,669",
+    "Notes": ""
+  },
+  {
+    "Year": 1860,
+    "Rank": 2,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "565,529",
+    "Notes": "The large jump in population between the seventh and eighth censuses is due to the 1854 Act of Consolidation, which greatly expanded the City of Philadelphia to be coterminous with Philadelphia County, and abolished all other local governments in the county. The \"Philadelphia\" prior to 1854 is present-day Center City."
+  },
+  {
+    "Year": 1860,
+    "Rank": 3,
+    "City": "Brooklyn",
+    "State": "New York",
+    "Population": "266,661",
+    "Notes": ""
+  },
+  {
+    "Year": 1860,
+    "Rank": 4,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "212,418",
+    "Notes": ""
+  },
+  {
+    "Year": 1860,
+    "Rank": 5,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "177,840",
+    "Notes": ""
+  },
+  {
+    "Year": 1860,
+    "Rank": 6,
+    "City": "New Orleans",
+    "State": "Louisiana",
+    "Population": "168,675",
+    "Notes": ""
+  },
+  {
+    "Year": 1860,
+    "Rank": 7,
+    "City": "Cincinnati",
+    "State": "Ohio",
+    "Population": "161,044",
+    "Notes": ""
+  },
+  {
+    "Year": 1860,
+    "Rank": 8,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "160,773",
+    "Notes": ""
+  },
+  {
+    "Year": 1860,
+    "Rank": 9,
+    "City": "Chicago",
+    "State": "Illinois",
+    "Population": "112,172",
+    "Notes": "First appearance in top 10. In the previous census, it was the 24th largest American city with a population of 29,963. At one point, Chicago would be the world's fastest growing city."
+  },
+  {
+    "Year": 1860,
+    "Rank": 10,
+    "City": "Buffalo",
+    "State": "New York",
+    "Population": "81,129",
+    "Notes": "First appearance in top 10. Would not re-appear until 1900."
+  },
+  {
+    "Year": 1850,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "515,547",
+    "Notes": "First city in the US to surpass 500,000."
+  },
+  {
+    "Year": 1850,
+    "Rank": 2,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "169,054",
+    "Notes": ""
+  },
+  {
+    "Year": 1850,
+    "Rank": 3,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "136,881",
+    "Notes": ""
+  },
+  {
+    "Year": 1850,
+    "Rank": 4,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "121,376",
+    "Notes": "(Present-day Center City.)"
+  },
+  {
+    "Year": 1850,
+    "Rank": 5,
+    "City": "New Orleans",
+    "State": "Louisiana",
+    "Population": "116,375",
+    "Notes": ""
+  },
+  {
+    "Year": 1850,
+    "Rank": 6,
+    "City": "Cincinnati",
+    "State": "Ohio",
+    "Population": "115,435",
+    "Notes": ""
+  },
+  {
+    "Year": 1850,
+    "Rank": 7,
+    "City": "Brooklyn",
+    "State": "New York",
+    "Population": "96,838",
+    "Notes": ""
+  },
+  {
+    "Year": 1850,
+    "Rank": 8,
+    "City": "St. Louis",
+    "State": "Missouri",
+    "Population": "77,860",
+    "Notes": "First Top 10 appearance of any city west of the Mississippi River."
+  },
+  {
+    "Year": 1850,
+    "Rank": 9,
+    "City": "Spring Garden",
+    "State": "Pennsylvania",
+    "Population": "58,894",
+    "Notes": "Now a neighborhood of Philadelphia. Only appearance in the top 10. Last census where Spring Garden was an independent city."
+  },
+  {
+    "Year": 1850,
+    "Rank": 10,
+    "City": "Albany",
+    "State": "New York",
+    "Population": "50,763",
+    "Notes": "Last appearance in top 10."
+  },
+  {
+    "Year": 1840,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "312,710",
+    "Notes": "First city in the US to surpass 300,000."
+  },
+  {
+    "Year": 1840,
+    "Rank": 2,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "102,313",
+    "Notes": "Second city in the US, after New York, to surpass 100,000."
+  },
+  {
+    "Year": 1840,
+    "Rank": 3,
+    "City": "New Orleans",
+    "State": "Louisiana",
+    "Population": "102,193",
+    "Notes": "New Orleans' rapid growth shows the increasing importance of Mississippi River trade."
+  },
+  {
+    "Year": 1840,
+    "Rank": 4,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "93,665",
+    "Notes": "(Present-day Center City.)"
+  },
+  {
+    "Year": 1840,
+    "Rank": 5,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "93,383",
+    "Notes": ""
+  },
+  {
+    "Year": 1840,
+    "Rank": 6,
+    "City": "Cincinnati",
+    "State": "Ohio",
+    "Population": "46,338",
+    "Notes": "Listed as a town."
+  },
+  {
+    "Year": 1840,
+    "Rank": 7,
+    "City": "Brooklyn",
+    "State": "New York",
+    "Population": "36,233",
+    "Notes": "At this time, Brooklyn was a city."
+  },
+  {
+    "Year": 1840,
+    "Rank": 8,
+    "City": "Northern Liberties",
+    "State": "Pennsylvania",
+    "Population": "34,474",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854. Last appearance in top 10."
+  },
+  {
+    "Year": 1840,
+    "Rank": 9,
+    "City": "Albany",
+    "State": "New York",
+    "Population": "33,721",
+    "Notes": ""
+  },
+  {
+    "Year": 1840,
+    "Rank": 10,
+    "City": "Charleston",
+    "State": "South Carolina",
+    "Population": "29,261",
+    "Notes": "Last appearance in top 10."
+  },
+  {
+    "Year": 1830,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "202,300",
+    "Notes": "First city in the US to surpass 200,000."
+  },
+  {
+    "Year": 1830,
+    "Rank": 2,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "80,800",
+    "Notes": "Baltimore is the second city to rank number two."
+  },
+  {
+    "Year": 1830,
+    "Rank": 3,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "80,462",
+    "Notes": "(Present-day Center City.)"
+  },
+  {
+    "Year": 1830,
+    "Rank": 4,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "61,392",
+    "Notes": ""
+  },
+  {
+    "Year": 1830,
+    "Rank": 5,
+    "City": "New Orleans",
+    "State": "Louisiana",
+    "Population": "46,082",
+    "Notes": ""
+  },
+  {
+    "Year": 1830,
+    "Rank": 6,
+    "City": "Charleston",
+    "State": "South Carolina",
+    "Population": "30,289",
+    "Notes": ""
+  },
+  {
+    "Year": 1830,
+    "Rank": 7,
+    "City": "Northern Liberties",
+    "State": "Pennsylvania",
+    "Population": "28,872",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1830,
+    "Rank": 8,
+    "City": "Cincinnati",
+    "State": "Ohio",
+    "Population": "24,831",
+    "Notes": "Listed as a town. First appearance on top 10 from a Midwestern state."
+  },
+  {
+    "Year": 1830,
+    "Rank": 9,
+    "City": "Albany",
+    "State": "New York",
+    "Population": "24,209",
+    "Notes": ""
+  },
+  {
+    "Year": 1830,
+    "Rank": 10,
+    "City": "Southwark",
+    "State": "Pennsylvania",
+    "Population": "20,581",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854. Last appearance in top 10."
+  },
+  {
+    "Year": 1820,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "123,706",
+    "Notes": "First city in the US to surpass 100,000."
+  },
+  {
+    "Year": 1820,
+    "Rank": 2,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "63,802",
+    "Notes": "(Present-day Center City.)"
+  },
+  {
+    "Year": 1820,
+    "Rank": 3,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "62,738",
+    "Notes": ""
+  },
+  {
+    "Year": 1820,
+    "Rank": 4,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "43,298",
+    "Notes": ""
+  },
+  {
+    "Year": 1820,
+    "Rank": 5,
+    "City": "New Orleans",
+    "State": "Louisiana",
+    "Population": "27,176",
+    "Notes": "Booming trade post, bought through the Louisiana Purchase."
+  },
+  {
+    "Year": 1820,
+    "Rank": 6,
+    "City": "Charleston",
+    "State": "South Carolina",
+    "Population": "24,780",
+    "Notes": ""
+  },
+  {
+    "Year": 1820,
+    "Rank": 7,
+    "City": "Northern Liberties",
+    "State": "Pennsylvania",
+    "Population": "19,678",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1820,
+    "Rank": 8,
+    "City": "Southwark",
+    "State": "Pennsylvania",
+    "Population": "14,713",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1820,
+    "Rank": 9,
+    "City": "Washington",
+    "State": "District of Columbia",
+    "Population": "13,247",
+    "Notes": "First appearance of the new capital in the top 10. Would disappear from the list by next census and not reappear on top 10 until 1950."
+  },
+  {
+    "Year": 1820,
+    "Rank": 10,
+    "City": "Salem",
+    "State": "Massachusetts",
+    "Population": "12,731",
+    "Notes": "Last appearance in the top 10. Listed as a town."
+  },
+  {
+    "Year": 1810,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "96,373",
+    "Notes": ""
+  },
+  {
+    "Year": 1810,
+    "Rank": 2,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "53,722",
+    "Notes": "(Present-day Center City.)"
+  },
+  {
+    "Year": 1810,
+    "Rank": 3,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "46,555",
+    "Notes": ""
+  },
+  {
+    "Year": 1810,
+    "Rank": 4,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "33,787",
+    "Notes": ""
+  },
+  {
+    "Year": 1810,
+    "Rank": 5,
+    "City": "Charleston",
+    "State": "South Carolina",
+    "Population": "24,711",
+    "Notes": ""
+  },
+  {
+    "Year": 1810,
+    "Rank": 6,
+    "City": "Northern Liberties",
+    "State": "Pennsylvania",
+    "Population": "19,874",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1810,
+    "Rank": 7,
+    "City": "New Orleans",
+    "State": "Territory of Orleans",
+    "Population": "17,242",
+    "Notes": "First entry in the top 10 list not located in one of the original Thirteen Colonies."
+  },
+  {
+    "Year": 1810,
+    "Rank": 8,
+    "City": "Southwark",
+    "State": "Pennsylvania",
+    "Population": "13,707",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1810,
+    "Rank": 9,
+    "City": "Salem",
+    "State": "Massachusetts",
+    "Population": "12,613",
+    "Notes": "Listed as a town."
+  },
+  {
+    "Year": 1810,
+    "Rank": 10,
+    "City": "Albany",
+    "State": "New York",
+    "Population": "10,762",
+    "Notes": "First appearance in the top 10, and first city in Upstate New York to make the top 10."
+  },
+  {
+    "Year": 1800,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "60,514",
+    "Notes": ""
+  },
+  {
+    "Year": 1800,
+    "Rank": 2,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "41,220",
+    "Notes": "(Present-day Center City.)"
+  },
+  {
+    "Year": 1800,
+    "Rank": 3,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "26,514",
+    "Notes": ""
+  },
+  {
+    "Year": 1800,
+    "Rank": 4,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "24,937",
+    "Notes": "Listed as a town."
+  },
+  {
+    "Year": 1800,
+    "Rank": 5,
+    "City": "Charleston",
+    "State": "South Carolina",
+    "Population": "18,824",
+    "Notes": ""
+  },
+  {
+    "Year": 1800,
+    "Rank": 6,
+    "City": "Northern Liberties",
+    "State": "Pennsylvania",
+    "Population": "10,718",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1800,
+    "Rank": 7,
+    "City": "Southwark",
+    "State": "Pennsylvania",
+    "Population": "9,621",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1800,
+    "Rank": 8,
+    "City": "Salem",
+    "State": "Massachusetts",
+    "Population": "9,457",
+    "Notes": "Listed as a town. Today, Salem is a city."
+  },
+  {
+    "Year": 1800,
+    "Rank": 9,
+    "City": "Providence",
+    "State": "Rhode Island",
+    "Population": "7,614",
+    "Notes": "Listed as a town. Last appearance in the top 10."
+  },
+  {
+    "Year": 1800,
+    "Rank": 10,
+    "City": "Norfolk",
+    "State": "Virginia",
+    "Population": "6,926",
+    "Notes": "Only appearance in the top 10, and only appearance of a city in Virginia in the top 10. Listed as a borough. Now an independent city."
+  },
+  {
+    "Year": 1790,
+    "Rank": 1,
+    "City": "New York",
+    "State": "New York",
+    "Population": "33,131",
+    "Notes": "New York has ranked as the city with the highest population in every census count.[a]"
+  },
+  {
+    "Year": 1790,
+    "Rank": 2,
+    "City": "Philadelphia",
+    "State": "Pennsylvania",
+    "Population": "28,522",
+    "Notes": "Prior to 1854, the City of Philadelphia only governed the oldest parts of the city, now referred to as Center City."
+  },
+  {
+    "Year": 1790,
+    "Rank": 3,
+    "City": "Boston",
+    "State": "Massachusetts",
+    "Population": "18,320",
+    "Notes": "Listed as a town in the 1790 census; now a city."
+  },
+  {
+    "Year": 1790,
+    "Rank": 4,
+    "City": "Charleston",
+    "State": "South Carolina",
+    "Population": "16,359",
+    "Notes": ""
+  },
+  {
+    "Year": 1790,
+    "Rank": 5,
+    "City": "Baltimore",
+    "State": "Maryland",
+    "Population": "13,503",
+    "Notes": "Existed as a town during the time; now an independent city."
+  },
+  {
+    "Year": 1790,
+    "Rank": 6,
+    "City": "Northern Liberties",
+    "State": "Pennsylvania",
+    "Population": "9,913",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1790,
+    "Rank": 7,
+    "City": "Salem",
+    "State": "Massachusetts",
+    "Population": "7,921",
+    "Notes": "Listed as a town in the 1790 census; now a city."
+  },
+  {
+    "Year": 1790,
+    "Rank": 8,
+    "City": "Newport",
+    "State": "Rhode Island",
+    "Population": "6,716",
+    "Notes": "Listed as a town in the 1790 census; now a city. Only appearance in the top 10."
+  },
+  {
+    "Year": 1790,
+    "Rank": 9,
+    "City": "Providence",
+    "State": "Rhode Island",
+    "Population": "6,380",
+    "Notes": "Listed as a town in the 1790 census; now a city."
+  },
+  {
+    "Year": 1790,
+    "Rank": 10,
+    "City": "Southwark",
+    "State": "Pennsylvania",
+    "Population": "5,661",
+    "Notes": "A neighborhood of Philadelphia annexed in 1854."
+  },
+  {
+    "Year": 1790,
+    "Rank": 10,
+    "City": "Marblehead",
+    "State": "Massachusetts",
+    "Population": "5,661",
+    "Notes": "Still a town. Only appearance in the top 10."
+  }
+]

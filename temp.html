@@ -1,386 +1,263 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  </head>
+  <body>
+    <style>
+#main {
+  position: absolute;
+  top: 0;
+  margin-top: 8px;
+}
+.city {
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background-color: #cccccc;
+  margin: 6px 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.name {
+  font-size: 0.6rem;
+  display: none;
+  font-family: Arial;
+}
+.pop {
+  /* font-weight: 600; */
+  color: #ffffff;
+  font-size: 0.6rem;
+  font-family: Arial;
+  /* line-height: 0.8rem; */
+}
+.unit {
+  display: none;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.5rem;
+  font-family: Arial;
+  line-height: 0.4rem;
+}
+path {
+  fill: none;
+  stroke-width: 3px;
+}
+    </style>
+    <svg id="graph" width="400" height="350"></svg>
+    <div id="main"></div>
+    <script type="text/javascript" charset="utf-8">
 
-<body>
-  <div id="map" style="width: 2000px; height: 1200px"></div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1a5Qt70mQ9GzIX6uSgvLHHHeo6l4uLoo"></script>
-  <script>
-  const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lng: 45.5, lat: 41.25 },
-    zoom: 8,
-    disableDefaultUI: true,
-    mapTypeId: "terrain",
-  });
-  /*const styles = [
-    {
-        "featureType": "all",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "visibility": "off"
-            },
-            {
-                "saturation": 36
-            },
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 40
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "visibility": "off"
-            },
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 16
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 20
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 17
-            },
-            {
-                "weight": 1.2
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 20
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 21
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 25
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 40
-            },
-            {
-                "weight": 0.2
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 25
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 25
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 19
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 17
-            }
-        ]
-    }
-];*/
-/*const styles = [
-    {
-        "featureType": "all",
-        "elementType": "labels",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": "-100"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.province",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "lightness": 65
-            },
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "lightness": "50"
-            },
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": "-100"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "all",
-        "stylers": [
-            {
-                "lightness": "30"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "all",
-        "stylers": [
-            {
-                "lightness": "40"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "hue": "#ffff00"
-            },
-            {
-                "lightness": -25
-            },
-            {
-                "saturation": -97
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "labels",
-        "stylers": [
-            {
-                "lightness": -25
-            },
-            {
-                "saturation": -100
-            }
-        ]
-    }
-];*/
-const styles = [
-    {
-        "stylers": [
-            {
-                "hue": "#baf4c4"
-            },
-            {
-                "saturation": 10
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "stylers": [
-            {
-                "color": "#effefd"
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "labels",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    }
-];
-  map.setOptions({ styles: styles });
-  </script>
-  <style>
-  html,
-  body,
-  #map {
-    height: 100%;
-    margin: 0;
+const directory = JSON.parse(`{
+  "New York": {
+    "name_zh": "紐約",
+    "region": "NE"
+  },
+  "Los Angeles": {
+    "name_zh": "洛杉磯",
+    "region": "West"
+  },
+  "Chicago": {
+    "name_zh": "芝加哥",
+    "region": "MW"
+  },
+  "Houston": {
+    "name_zh": "休士頓",
+    "region": "S"
+  },
+  "Phoenix": {
+    "name_zh": "鳳凰城",
+    "region": "West"
+  },
+  "Philadelphia": {
+    "name_zh": "費城",
+    "region": "NE"
+  },
+  "San Antonio": {
+    "name_zh": "聖安東尼奧",
+    "region": "S"
+  },
+  "San Diego": {
+    "name_zh": "聖地牙哥",
+    "region": "West"
+  },
+  "Dallas": {
+    "name_zh": "達拉斯",
+    "region": "S"
+  },
+  "San Jose": {
+    "name_zh": "聖荷西",
+    "region": "West"
+  },
+  "Detroit": {
+    "name_zh": "底特律",
+    "region": "MW"
+  },
+  "Baltimore": {
+    "name_zh": "巴爾的摩",
+    "region": "NE"
+  },
+  "Washington": {
+    "name_zh": "華盛頓特區",
+    "region": "NE"
+  },
+  "Cleveland": {
+    "name_zh": "克利夫蘭",
+    "region": "MW"
+  },
+  "St. Louis": {
+    "name_zh": "聖路易",
+    "region": "MW"
+  },
+  "Boston": {
+    "name_zh": "波士頓",
+    "region": "NEng"
+  },
+  "Pittsburgh": {
+    "name_zh": "匹茲堡",
+    "region": "NE"
+  },
+  "Buffalo": {
+    "name_zh": "水牛城",
+    "region": "NE"
+  },
+  "San Francisco": {
+    "name_zh": "舊金山",
+    "region": "West"
+  },
+  "Cincinnati": {
+    "name_zh": "辛辛那提",
+    "region": "MW"
+  },
+  "Brooklyn": {
+    "name_zh": "布魯克林",
+    "region": "NE"
+  },
+  "New Orleans": {
+    "name_zh": "紐奧良",
+    "region": "S"
+  },
+  "Spring Garden": {
+    "name_zh": "春園",
+    "region": "NE"
+  },
+  "Albany": {
+    "name_zh": "阿伯尼",
+    "region": "NE"
+  },
+  "Northern Liberties": {
+    "name_zh": "北方自由",
+    "region": "NE"
+  },
+  "Charleston": {
+    "name_zh": "查爾斯頓",
+    "region": "S"
+  },
+  "Southwark": {
+    "name_zh": "南華克",
+    "region": "NE"
+  },
+  "Salem": {
+    "name_zh": "塞勒姆",
+    "region": "NEng"
+  },
+  "Providence": {
+    "name_zh": "普洛威頓斯",
+    "region": "NEng"
+  },
+  "Norfolk": {
+    "name_zh": "諾福克",
+    "region": "NE"
+  },
+  "Newport": {
+    "name_zh": "紐波特",
+    "region": "NEng"
+  },
+  "Marblehead": {
+    "name_zh": "馬布爾黑德",
+    "region": "NEng"
   }
-  </style>
-</body>
+}`);
 
+const colors = {
+  NEng: '#7ed957',
+  NE: '#7ed957', //'#04e762',
+  MW: '#ff914d', //'#f5b700',
+  S: '#dc0073',
+  West: '#008bf8',
+};
+
+// const colors = {
+//   NE: '#43A047',
+//   MW: '#FB8C00',
+//   S: '#D81B60',
+//   West: '#1E88E5',
+// };
+
+const startYear = 1920;
+
+fetch('us_cities.json').then(r => r.json()).then(data => {
+  data = data.filter(({ Year }) => Year >= startYear);
+  const years = [];
+  for (let i=0; i<data.length-1; i=i+10) {
+    years.push(data.slice(i, i+10));
+  }
+  const t = years.reverse().map(year => {
+    const cities = year.map(({ City, Population }) => {
+      const { name_zh, region } = directory[City];
+      const color = colors[region];
+      const pop = Number(Population.replace(/,/g, ''));
+      const popText = pop < 100000 ? Math.round(pop / 1000).toString() + '' : (Math.round(pop / 100000) / 10).toString() + '';
+      const unit = pop < 100000 ? 'K' : 'M';
+      return `<div class="city" style="background-color: ${color}">
+        <div class="name">${City}</div>
+        <div class="pop">${popText}</div>
+        <div class="unit">${unit}</div>
+      </div>`;
+    }).join('');
+    return `<div style="display: flex; flex-direction: column">${cities}</div>`;
+  }).join('');
+  document.getElementById('main').innerHTML = `<div style="display: flex">${t}</div>`;
+
+  const r = 9;
+  const xMargin = 9;
+  const yMargin = 6;
+  const o = 0;
+
+  const x = 2 * (r + xMargin);
+  const y = 2 * (r + yMargin);
+  const paths = data.reverse().reduce((obj, { City, Year, Rank }) => {
+    obj[City] = obj[City] || [];
+    obj[City].push({ Year, Rank });
+    return obj;
+  }, {});
+
+  paths['Brooklyn_'] = [{Year:1890,Rank:4},{Year:1900,Rank:1}];
+  paths['Northern Liberties_'] = [{Year: 1840, Rank: 8}, {Year: 1850, Rank: 4}];
+  paths['Southwark_'] = [{Year: 1830, Rank: 10}, {Year: 1840, Rank: 4}];
+  paths['Spring Garden_'] = [{Year: 1850, Rank: 9}, {Year: 1860, Rank: 2}];
+
+  for (let city in paths) {
+    const here = paths[city];
+    let path = '';
+    here.forEach(({ Year, Rank }, i) => {
+      const prefix = (i == 0 || Year - here[i-1].Year > 10) ? 'M' : 'L';
+      const X = x/2+x*(Year-startYear)/10;
+      const Y = y/2+y*(Rank-1);
+      path += `${prefix}${X-o},${Y}L${X+o},${Y}`;
+    });
+    const { region } = directory[city] || directory[city.replace(/_/g, '')];
+    var e = document.createElementNS("http://www.w3.org/2000/svg", 'path');
+    e.setAttribute("d",path);
+    e.setAttribute("stroke",colors[region]||"#cccccc");
+    if (city.indexOf('_') > -1) {
+      e.setAttribute("stroke-dasharray","4 4");
+    }
+    document.getElementById('graph').appendChild(e);
+  }
+});
+    </script>
+  </body>
 </html>
